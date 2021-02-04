@@ -13,7 +13,6 @@ arr.splice(3, 5, "we", "are", "the", "family");
 /*  insert the elements without any removals. The splice method is also able to insert the elements without any removals */
 
 arr.splice(3, 0, "we", "are", "the", "family");
-console.log("arr", arr);
 
 /*  Here and in other array methods, negative indexes are allowed. They specify the position from the end of the array, like here: */
 let array = [1, 2, 5];
@@ -23,4 +22,15 @@ let array = [1, 2, 5];
 // then insert 3 and 4
 
 array.splice(-1, 0, 3, 4);
-console.log("array", array);
+
+/* 2- While */
+
+let arrayW = [1, 2, 3, 4, 5, 6];
+let i = 0;
+while (i < 5) {
+  arrayW[i];
+  console.log(arrayW[i]);
+  i++;
+}
+
+//console.log("arrayW", arrayW);
