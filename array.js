@@ -40,3 +40,10 @@ while (i < 5) {
 for (let i = 0; i < arrayW.length; i++) {
   console.log("iterating my for");
 }
+
+// map
+
+const newArray = arrayW.map((item) => {
+  return item + 1;
+});
+console.log("newArray", newArray);
